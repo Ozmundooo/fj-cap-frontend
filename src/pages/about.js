@@ -11,7 +11,7 @@ export default function about() {
       <main className="bg-[#EBD9D5] ">
         <section
           id="about"
-          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 flex flex-col lg:flex-row gap-4"
+          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 flex flex-col lg:flex-row gap-4 justify-between"
         >
           <div className="lg:w-1/2">
             <div className="bg-[#F0ABAB] px-4 py-2 rounded-full shadow-solid-primary w-fit mb-4">
@@ -78,7 +78,7 @@ export default function about() {
             Modalities and Interventions<br></br>
             <span className="font-title">I draw from services</span>
           </h2>
-          <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5">
+          <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 my-3">
             <li className="bg-[#778AC1] px-4 py-4 text-white font-subtitle rounded-lg shadow-solid-primary">
               Cognitive Behavioral Therapy (CBT)
             </li>
@@ -130,7 +130,7 @@ export default function about() {
           <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl mb-5">
             Trainings/Certifications
           </h2>
-          <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5">
+          <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 my-3">
             <li className="bg-[#778AC1] px-4 py-4 text-white font-subtitle rounded-lg shadow-solid-primary">
               Becoming an Effective DBT Therapist: Applying Foundational
               Principles to Facilitate Change (Toronto Psychology and Wellness
