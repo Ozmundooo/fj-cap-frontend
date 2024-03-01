@@ -11,7 +11,7 @@ export default function about() {
       <main className="bg-[#EBD9D5] ">
         <section
           id="about"
-          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 flex flex-col lg:flex-row gap-4 justify-between"
+          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 flex flex-col lg:flex-row gap-4 lg:justify-between"
         >
           <div className="lg:w-1/2">
             <div className="bg-[#F0ABAB] px-4 py-2 rounded-full shadow-solid-primary w-fit mb-4">
@@ -65,7 +65,7 @@ export default function about() {
           </div>
           <div className="lg:w-1/2">
             <Image
-              className=" shadow-solid-primary rounded-lg object-cover"
+              className=" shadow-solid-primary rounded-lg object-cover lg:ml-auto"
               src={AboutImage}
             />
           </div>
