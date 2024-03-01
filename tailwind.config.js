@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        heroImage: "url('../assets/HomeHeroImage.png')",
+        heroImage: "url('/HomeHeroImage.png')",
       },
       fontFamily: {
         title: ["Yeseva One", "sans sarif"],
