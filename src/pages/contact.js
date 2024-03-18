@@ -9,7 +9,7 @@ export default function contact() {
       <main className="bg-[#EBD9D5] ">
         <section id="contact" className=" px-4 lg:px-8  xl:px-12 py-5  mx-auto">
           <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl text-center mb-5">
-            Get in <span className="font-title">touch</span>
+            get in <span className="font-title">touch</span>
           </h2>
           <ContactForm />
         </section>

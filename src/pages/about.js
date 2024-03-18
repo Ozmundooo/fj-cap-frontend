@@ -75,7 +75,7 @@ export default function about() {
           className=" px-4 lg:px-8  xl:px-12 2xl:px-24  pb-5 "
         >
           <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl mb-5">
-            Modalities and Interventions<br></br>
+            modalities and interventions<br></br>
             <span className="font-title">I draw from services</span>
           </h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 my-3">
@@ -104,7 +104,7 @@ export default function about() {
           className=" px-4 lg:px-8  xl:px-12 2xl:px-24  pb-5 "
         >
           <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl mb-5">
-            My <span className="font-title">mission</span>
+            my <span className="font-title">mission</span>
           </h2>
           <p className="font-subtitle text-[#242051] py-2">
             At Freshta Jamasi Counselling & Psychotherapy, we are committed to
@@ -128,7 +128,7 @@ export default function about() {
           className=" px-4 lg:px-8  xl:px-12 2xl:px-24  pb-5 "
         >
           <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl mb-5">
-            Trainings/Certifications
+            trainings/certifications
           </h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 my-3">
             <li className="bg-[#778AC1] px-4 py-4 text-white font-subtitle rounded-lg shadow-solid-primary">
