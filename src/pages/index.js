@@ -54,6 +54,20 @@ export default function Home() {
           </ul>
         </section>
         <section
+          id="homehero"
+          className=" bg-[#242051] px-4 pb-6 lg:px-8 lg:pb-10 xl:px-12 2xl:px-24 sm:p-6 flex my-4"
+        >
+          <div className="mx-auto ">
+            <h1 className="font-title text-white text-xl lg:text-2xl xl:text-4xl text-center my-4">
+              "I am not what happened to me. I am what I choose to become"{" "}
+            </h1>
+            <p className="font-subtitle text-white text-xl lg:text-2xl xl:text-3xl text-center ">
+              {" "}
+              Carl Jung
+            </p>
+          </div>
+        </section>
+        <section
           id="faq"
           className=" px-4 lg:px-8  xl:px-12 2xl:px-24 py-5 max-w-4xl mx-auto"
         >

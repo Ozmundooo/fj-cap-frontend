@@ -124,11 +124,42 @@ export default function about() {
           </p>
         </section>
         <section
+          id="credentials"
+          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  pb-5 "
+        >
+          <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl mb-5">
+            credentials & education
+          </h2>
+          <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 my-3">
+            <li className="border border-[#778AC1] px-4 py-4 text-[#242051] font-subtitle rounded-lg ">
+              <span className="font-medium text-lg">
+                Registered Psychotherapist (Qualifying) College of Registered
+              </span>
+              <br></br>
+              Psychotherapists of Ontario, registration number #13346
+            </li>
+            <li className="border border-[#778AC1] px-4 py-4 text-[#242051] font-subtitle rounded-lg ">
+              <span className="font-medium text-lg">
+                Master of Arts in Counselling Psychology
+              </span>
+              <br></br>
+              Yorkville University, 2023
+            </li>
+            <li className="border border-[#778AC1] px-4 py-4 text-[#242051] font-subtitle rounded-lg ">
+              <span className="font-medium text-lg">
+                Honours Bachelor of Science
+              </span>
+              <br></br>
+              University of Toronto, 2021
+            </li>
+          </ul>
+        </section>
+        <section
           id="modalities"
           className=" px-4 lg:px-8  xl:px-12 2xl:px-24  pb-5 "
         >
           <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl mb-5">
-            trainings/certifications
+            professional development
           </h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 my-3">
             <li className="bg-[#778AC1] px-4 py-4 text-white font-subtitle rounded-lg shadow-solid-primary">
