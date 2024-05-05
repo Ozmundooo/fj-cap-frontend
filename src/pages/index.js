@@ -11,6 +11,8 @@ import FreeConsult from "../assets/FreeConsult.jpeg";
 import IndividualTherapy from "../assets/IndividualTherapy.jpeg";
 import StudentTherapy from "../assets/StudentTherapy.jpeg";
 import RateReduced from "../assets/RateReduced.jpeg";
+import ISRFY from "../assets/ISRFY.jpg";
+import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -92,7 +94,40 @@ export default function Home() {
           </ul>
         </section>
         <section
-          id="homehero"
+          id="services"
+          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 flex flex-col lg:flex-row gap-4 lg:gap-10 lg:justify-between"
+        >
+          <div className="lg:w-1/2 my-auto">
+            <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl mb-5 ">
+              Is therapy <span className="font-title">right for you?</span>
+            </h2>
+            <p className="font-subtitle text-[#242051] text-lg xl:text-xl 2xl:text-2xl mb-4">
+              Curious if therapy is the right fit for you, especially with a
+              culturally-sensitive lens? Seeking support from a mental health
+              therapist can be a crucial step in navigating life's challenges
+              with understanding and guidance. Whether you're wrestling with
+              stress, anxiety, depression, or facing unique cultural or racial
+              experiences, therapy offers a safe, inclusive space to explore
+              your thoughts and emotions. It's a place to develop
+              culturally-responsive coping skills, address intergenerational
+              trauma, and build resilience rooted in your identity.
+            </p>
+            <a
+              href="#"
+              className="font-subtitle whitespace-nowrap inline-flex justify-center px-8 md:px-14 lg:px-20 xl:px-24 py-3 md:py-4 border border-transparent rounded-md shadow-sm text-lg md:text-xl lg:text-2xl xl:text-4xl hover:border-white text-white bg-[#221E5A] hover:bg-white hover:text-[#221E5A] duration-200 shadow-solid-primary "
+            >
+              Book now
+            </a>
+          </div>
+          <div className="lg:w-1/2">
+            <Image
+              className=" border-[#242051] border-2 rounded-lg object-cover lg:ml-auto  "
+              src={ISRFY}
+            />
+          </div>
+        </section>
+        <section
+          id="quote"
           className=" bg-[#242051] px-4 pb-6 lg:px-8 lg:pb-10 xl:px-12 2xl:px-24 sm:p-6 flex my-4"
         >
           <div className="mx-auto ">
