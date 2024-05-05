@@ -70,7 +70,7 @@ export default function ContactForm() {
           </div>
           <div className="text-white flex gap-2 my-3">
             <Image src={LocationIcon} />
-            <p className="my-auto text-lg">123 Street, A1B 2C3 Toronto, ON</p>
+            <p className="my-auto text-lg">Toronto, ON | Woodbridge ON </p>
           </div>
         </div>
       </div>
