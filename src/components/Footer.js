@@ -98,10 +98,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t-2 border-black border-opacity-20 flex flex-col lg:flex-row justify-between gap-2 py-2">
-        <Link href={"/privacypolicy"} className="underline">
-          Privacy Policy
-        </Link>
-        <p>©Freshta Jamasi 2023. All Rights Reserved</p>
+        <p>©Freshta Jamasi 2024. All Rights Reserved</p>
         <p>
           Developed by:{" "}
           <a className="underline" href="https://www.oadev.ca/">
