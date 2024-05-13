@@ -83,8 +83,8 @@ export default function Faq() {
       </AccordionItem>
       <AccordionItem
         key="5"
-        aria-label="What is your cancellation policy?"
-        title="What is your cancellation policy?"
+        aria-label="Are my sessions covered by OHIP?"
+        title="Are my sessions covered by OHIP?"
         className="font-subtitle border-b-2 border-[#242051]"
       >
         <p className="">
