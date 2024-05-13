@@ -51,11 +51,7 @@ export default function ContactForm() {
           <h3 className="font-subtitle text-white text-2xl lg:text-2xl xl:text-3xl my-auto  pb-2">
             Reach out directly
           </h3>
-          <p className="pb-4 text-white opacity-90 border-b-1 border-white border-opacity-40">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
-          </p>
+
           <div className="text-white flex gap-2 my-3">
             <Image src={PhoneIcon} />
             <a className="my-auto text-lg" href={"tel:647-576-2751"}>
@@ -70,7 +66,7 @@ export default function ContactForm() {
           </div>
           <div className="text-white flex gap-2 my-3">
             <Image src={LocationIcon} />
-            <p className="my-auto text-lg">Toronto, ON | Woodbridge ON </p>
+            <p className="my-auto text-lg">Toronto, ON | Woodbridge, ON </p>
           </div>
         </div>
       </div>

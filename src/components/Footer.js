@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
           <div className=" flex gap-2 py-2">
             <Image src={LocationIcon} />
-            <p className="my-auto ">Toronto, ON | Woodbridge ON </p>
+            <p className="my-auto ">Toronto, ON | Woodbridge. ON </p>
           </div>
           <SocialIcon
             label="my instagram account"
