@@ -68,7 +68,7 @@ export default function Home() {
               online={true}
               title={"Individual Therapy (50 minutes)"}
               subtitle={
-                "Individual therapy is a collaborative process between a therapist and client aimed at exploring thoughts, behaviours, emotions, and experiences. It offers a safe an non-judgemental space to address various concerns and gain insight."
+                "Individual therapy is a collaborative process between a therapist and client aimed at exploring thoughts, behaviours, emotions, and experiences. It offers a safe and non-judgemental space to address various concerns and gain insight."
               }
               link={"#"}
             />
