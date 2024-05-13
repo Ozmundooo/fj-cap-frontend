@@ -38,7 +38,7 @@ export default function ServiceCard(props) {
         </div>
         <div className="">
           <a
-            href={props.link}
+            href="https://freshtajamasi.janeapp.com/"
             className=" font-subtitle whitespace-nowrap inline-flex items-end justify-center px-8 md:px-14 py-3 md:py-4 border border-transparent rounded-md shadow-sm text-lg md:text-xl  hover:border-white text-white bg-[#221E5A] hover:bg-[#221E5A20] hover:text-[#221E5A]   duration-200 shadow-solid-primary "
           >
             Book now
