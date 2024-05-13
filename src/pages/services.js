@@ -33,16 +33,16 @@ export default function services() {
             <ServiceCard
               image={IndividualTherapy}
               inperson={true}
+              online={true}
               title={"Individual Therapy (50 minutes)"}
               subtitle={
-                "Individual therapy is a collaborative process between a therapist and client aimed at exploring thoughts, behaviours, emotions, and experiences. It offers a safe an non-judgemental space to address various concerns and gain insight."
+                "Individual therapy is a collaborative process between a therapist and client aimed at exploring thoughts, behaviours, emotions, and experiences. It offers a safe and non-judgemental space to address various concerns and gain insight."
               }
               link={"#"}
             />
             <ServiceCard
               image={StudentTherapy}
               online={true}
-              inperson={true}
               title={"Student Therapy (50 minutes)"}
               subtitle={
                 "Student Therapy offers specialized individual counseling tailored to high school and post-secondary students, providing a confidential space to address academic pressure, identity exploration, and mental health concerns like anxiety and depression, as well as navigate the challenges of adolescence and young adulthood with confidence."
