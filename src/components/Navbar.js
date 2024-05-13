@@ -1,6 +1,7 @@
 import React from "react";
 import MainLogo from "../assets/Logos/MainLogo.png";
 import Image from "next/image";
+import Head from "next/head";
 export default function navbar() {
   const [open, setOpen] = React.useState(false);
 

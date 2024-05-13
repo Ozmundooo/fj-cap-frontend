@@ -8,11 +8,42 @@ import FreeConsult from "../assets/FreeConsult.jpeg";
 import IndividualTherapy from "../assets/IndividualTherapy.jpeg";
 import StudentTherapy from "../assets/StudentTherapy.jpeg";
 import RateReduced from "../assets/RateReduced.jpeg";
+import Head from "next/head";
 export default function services() {
   return (
     <>
+      <Head>
+        <title>Services</title>
+        <meta
+          name="description"
+          content="Discover the therapy services offered by Freshta Jasami, an empowering therapist for diverse identities. Explore individual therapy, student therapy, and reduced-rate therapy to support your mental wellness journey."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="keywords"
+          content="counselling, psychotherapy, therapy, mental health"
+        />
+        <meta name="author" content="Freshta Jamasi" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Services" />
+        <meta
+          property="og:description"
+          content="Discover the therapy services offered by Freshta Jasami, an empowering therapist for diverse identities. Explore individual therapy, student therapy, and reduced-rate therapy to support your mental wellness journey."
+        />
+        <meta property="og:image" content="/assets/Logos/MainLogo.png" />
+        <meta property="og:url" content="https://freshtajamasi.ca/services" />
+        <meta name="twitter:title" content="Services" />
+        <meta
+          name="twitter:description"
+          content="Discover the therapy services offered by Freshta Jasami, an empowering therapist for diverse identities. Explore individual therapy, student therapy, and reduced-rate therapy to support your mental wellness journey."
+        />
+        <meta name="twitter:image" content="/assets/Logos/MainLogo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://freshtajamasi.ca/services" />
+      </Head>
       <Navbar />
-      <main className="bg-[#EBD9D5] ">
+      <main className="bg-[#EAD7D3] ">
         <section
           id="services"
           className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 "

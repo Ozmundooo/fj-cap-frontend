@@ -5,9 +5,45 @@ import PhoneIcon from "../assets/Icons/PhoneIcon.svg";
 import Image from "next/image";
 import Link from "next/link";
 export default function ContactForm() {
+  async function handleSubmit(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORM_API_KEY);
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    });
+    const result = await response.json();
+    if (result.success) {
+    }
+  }
   return (
     <div className="  font-subtitle xl:flex  ">
-      <form className="bg-white px-6  py-2 pb-5 border-[#242051] rounded-t-lg border-t-2 border-x-2 xl:rounded-none xl:border-0 xl:border-l-2 xl:border-y-2 xl:rounded-l-lg xl:rounded-y-lg text-[#242051] xl:w-3/5">
+      <form
+        onSubmit={handleSubmit}
+        className="bg-white px-6  py-2 pb-5 border-[#242051] rounded-t-lg border-t-2 border-x-2 xl:rounded-none xl:border-0 xl:border-l-2 xl:border-y-2 xl:rounded-l-lg xl:rounded-y-lg text-[#242051] xl:w-3/5"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value={process.env.NEXT_PUBLIC_WEB3FORM_API_KEY}
+        />
+        <input
+          type="hidden"
+          name="subject"
+          value="Website - Contact Form Submission"
+        />
+        <input type="hidden" name="from_name" value="Freshta Jamasi" />
+        <input type="checkbox" name="botcheck" id="" className="hidden" />
         <div className="flex flex-col gap-2 my-4">
           <label className="font-medium text-xl">Name</label>
           <input

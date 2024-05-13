@@ -7,8 +7,38 @@ import Image from "next/image";
 export default function about() {
   return (
     <>
+      <Head>
+        <title>About</title>
+        <meta
+          name="description"
+          content="Learn more about Freshta Jamasi, my modalities and interventions, my mission, and my credentials and more."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="keywords"
+          content="counselling, psychotherapy, therapy, mental health"
+        />
+        <meta name="author" content="Freshta Jamasi" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="About" />
+        <meta
+          property="og:description"
+          content="Learn more about Freshta Jamasi, my modalities and interventions, my mission, and my credentials and more."
+        />
+        <meta property="og:image" content="/assets/Logos/MainLogo.png" />
+        <meta property="og:url" content="https://freshtajamasi.ca/about" />
+        <meta name="twitter:title" content="About" />
+        <meta
+          name="twitter:description"
+          content="Learn more about Freshta Jamasi, my modalities and interventions, my mission, and my credentials and more."
+        />
+        <meta name="twitter:image" content="/assets/Logos/MainLogo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://freshtajamasi.ca/about" />
+      </Head>
       <Navbar />
-      <main className="bg-[#EBD9D5] ">
+      <main className="bg-[#EAD7D3] ">
         <section
           id="about"
           className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 flex flex-col lg:flex-row gap-4 lg:gap-10 lg:justify-between"

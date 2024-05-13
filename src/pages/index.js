@@ -13,11 +13,48 @@ import StudentTherapy from "../assets/StudentTherapy.jpeg";
 import RateReduced from "../assets/RateReduced.jpeg";
 import ISRFY from "../assets/ISRFY.jpg";
 import Image from "next/image";
+import Head from "next/head";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Freshta Jamasi | Counselling and Psychotherapy</title>
+        <meta
+          name="description"
+          content="Freshta Jasami: Empowering Therapist for Diverse Identities. Discover Validation, Growth, and Support in Your Journey to Mental Wellness."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="keywords"
+          content="counselling, psychotherapy, therapy, mental health"
+        />
+        <meta name="author" content="Freshta Jamasi" />
+        <meta name="robots" content="index, follow" />
+        <meta
+          property="og:title"
+          content="Freshta Jamasi | Counselling and Psychotherapy"
+        />
+        <meta
+          property="og:description"
+          content="Freshta Jasami: Empowering Therapist for Diverse Identities. Discover Validation, Growth, and Support in Your Journey to Mental Wellness."
+        />
+        <meta property="og:image" content="/assets/Logos/MainLogo.png" />
+        <meta property="og:url" content="https://freshtajamasi.ca" />
+        <meta
+          name="twitter:title"
+          content="Freshta Jamasi | Counselling and Psychotherapy"
+        />
+        <meta
+          name="twitter:description"
+          content="Freshta Jasami: Empowering Therapist for Diverse Identities. Discover Validation, Growth, and Support in Your Journey to Mental Wellness."
+        />
+        <meta name="twitter:image" content="/assets/Logos/MainLogo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://freshtajamasi.ca" />
+      </Head>
       <Navbar />
-      <main className="bg-[#EBD9D5] ">
+      <main className="bg-[#EAD7D3] ">
         <section
           id="homehero"
           className="h-[70vh] lg:h-[80vh] bg-cover bg-heroImage bg-center px-4 pb-6 lg:px-8 lg:pb-10 xl:px-12 2xl:px-24 sm:p-6 flex "
