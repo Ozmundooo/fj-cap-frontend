@@ -38,7 +38,7 @@ export default function Home() {
               Behavioural Therapy (DBT), and Psychodynamic theories
             </p>
             <a
-              href="#"
+              href="https://freshtajamasi.janeapp.com/"
               className="font-subtitle whitespace-nowrap inline-flex justify-center px-8 md:px-14 lg:px-20 xl:px-24 py-3 md:py-4 border border-transparent rounded-md shadow-sm text-lg md:text-xl lg:text-2xl xl:text-4xl hover:border-white text-white bg-[#221E5A] hover:bg-white hover:text-[#221E5A] duration-200 shadow-solid-primary "
             >
               Book now
@@ -113,7 +113,7 @@ export default function Home() {
               trauma, and build resilience rooted in your identity.
             </p>
             <a
-              href="#"
+              href="https://freshtajamasi.janeapp.com/"
               className="font-subtitle whitespace-nowrap inline-flex justify-center px-8 md:px-14 lg:px-20 xl:px-24 py-3 md:py-4 border border-transparent rounded-md shadow-sm text-lg md:text-xl lg:text-2xl xl:text-4xl hover:border-white text-white bg-[#221E5A] hover:bg-white hover:text-[#221E5A] duration-200 shadow-solid-primary "
             >
               Book now
