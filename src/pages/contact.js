@@ -2,6 +2,7 @@ import ContactForm from "@/components/ContactForm";
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 export default function contact() {
   return (
     <>

@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AboutImage from "../assets/AboutImage.jpg";
 import Image from "next/image";
-
+import Head from "next/head";
 export default function about() {
   return (
     <>
