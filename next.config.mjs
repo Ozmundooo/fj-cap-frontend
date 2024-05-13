@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  siteUrl: process.env.SITE_URL || "https://www.freshtajamasi.ca/",
+  generateRobotsTxt: true, // (optional)
+  // ...other options
 };
 
 export default nextConfig;
