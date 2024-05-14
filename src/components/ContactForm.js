@@ -4,9 +4,22 @@ import LocationIcon from "../assets/Icons/LocationIcon.svg";
 import PhoneIcon from "../assets/Icons/PhoneIcon.svg";
 import Image from "next/image";
 import Link from "next/link";
+import { ToastContainer, toast, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 export default function ContactForm() {
   async function handleSubmit(event) {
     event.preventDefault();
+    toast("Sending...", {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      transition: Bounce,
+    });
     const formData = new FormData(event.target);
 
     formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORM_API_KEY);
@@ -24,10 +37,33 @@ export default function ContactForm() {
     });
     const result = await response.json();
     if (result.success) {
+      toast("Your message has been sent! I will get back to you soon.", {
+        position: "bottom-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+      });
     }
   }
   return (
     <div className="  font-subtitle xl:flex  ">
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <form
         onSubmit={handleSubmit}
         className="bg-white px-6  py-2 pb-5 border-[#242051] rounded-t-lg border-t-2 border-x-2 xl:rounded-none xl:border-0 xl:border-l-2 xl:border-y-2 xl:rounded-l-lg xl:rounded-y-lg text-[#242051] xl:w-3/5"
@@ -47,6 +83,9 @@ export default function ContactForm() {
         <div className="flex flex-col gap-2 my-4">
           <label className="font-medium text-xl">Name</label>
           <input
+            name="name"
+            id="name"
+            type="text"
             placeholder="John Doe"
             className="border-b-1 border-[#24205140] py-3"
           ></input>
@@ -54,6 +93,8 @@ export default function ContactForm() {
         <div className="flex flex-col gap-2 my-4">
           <label className="font-medium text-xl">Email</label>
           <input
+            name="email"
+            type="email"
             placeholder="youremail@email.com"
             className="border-b-1 border-[#24205140] py-3"
           ></input>
@@ -62,6 +103,9 @@ export default function ContactForm() {
         <div className="flex flex-col gap-2 my-4">
           <label className="font-medium text-xl">Leave me a message</label>
           <textarea
+            name="message"
+            id="message"
+            type="text"
             rows={5}
             placeholder="Please type your message here..."
             className="border-b-1 border-[#24205140] py-3"
@@ -75,12 +119,12 @@ export default function ContactForm() {
           Brighter Vision harmless for unauthorized use, disclosure, or access
           of your protected health information sent via this electronic means.
         </p>
-        <a
-          href="#"
+        <button
+          type="submit"
           className="font-subtitle whitespace-nowrap inline-flex justify-center px-6 md:px-10 py-2 border border-transparent rounded-md shadow-sm text-lg md:text-xl  hover:border-white text-white bg-[#221E5A] hover:bg-[#221E5A20] hover:text-black duration-200 shadow-solid-primary "
         >
           Send message
-        </a>
+        </button>
       </form>
       <div className="bg-[#778AC1] px-6 py-5 pb-5 border-[#242051] rounded-b-lg border-b-2 border-x-2 xl:rounded-none xl:border-0 xl:border-r-2 xl:border-y-2 xl:rounded-r-lg xl:rounded-y-lg xl:w-2/5 flex flex-col">
         <div className="my-auto ">
