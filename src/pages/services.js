@@ -93,6 +93,51 @@ export default function services() {
           </ul>
         </section>
         <section
+          id="description"
+          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 "
+        >
+          <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl mb-5">
+            <span className="font-title">Therapy</span> and Counselling for:
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-3 font-subtitle text-[#242051] xl:text-lg">
+            <ul>
+              <li>Anger Management</li>
+              <li>Antisocial Personality</li>
+              <li>Anxiety</li>
+              <li>Behavioural Issues</li>
+              <li>BIPOC Counselling</li>
+              <li>Body Image</li>
+              <li>Boundaries</li>
+              <li>Burnout</li>
+              <li>Codependency</li>
+              <li>Coping Skills</li>
+            </ul>
+            <ul>
+              <li>Crisis Intervention</li>
+              <li>Depression</li>
+              <li>Family Conflict</li>
+              <li>Grief/Loss</li>
+              <li>LGBTQ+</li>
+              <li>Life Transitions</li>
+              <li>Mood Disorders</li>
+              <li>Peer Relationships</li>
+              <li>Racial Identity</li>
+              <li>Relationship Issues</li>
+            </ul>
+            <ul>
+              <li>School Issues</li>
+              <li>Self-Esteem</li>
+              <li>Self-Harm</li>
+              <li>South Asian Intergenerational Issues</li>
+              <li>Stress</li>
+              <li>Suicidal Ideation</li>
+              <li>Trauma and PTSD</li>
+              <li>Women’s Issues</li>
+              <li>Work Stress</li>
+            </ul>
+          </div>
+        </section>
+        <section
           id="faq"
           className=" px-4 lg:px-8  xl:px-12 2xl:px-24 py-5 max-w-4xl mx-auto"
         >
