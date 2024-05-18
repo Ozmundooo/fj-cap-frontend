@@ -57,7 +57,7 @@ export default function services() {
               online={true}
               title={"Free 15-minute virtual consultation"}
               subtitle={
-                "Connect with us for a free 15-minute virtual consultation to discuss your needs and explore how we can support you on your journey towell-being."
+                "Connect with us for a free 15-minute virtual consultation to discuss your needs and explore how we can support you on your journey to well-being."
               }
               link={"#"}
             />
