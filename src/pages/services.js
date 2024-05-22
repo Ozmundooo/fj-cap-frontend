@@ -31,14 +31,20 @@ export default function services() {
           property="og:description"
           content="Discover the therapy services offered by Freshta Jasami, an empowering therapist for diverse identities. Explore individual therapy, student therapy, and reduced-rate therapy to support your mental wellness journey."
         />
-        <meta property="og:image" content="/assets/Logos/MainLogo.png" />
+        <meta
+          property="og:image"
+          content="https://www.freshtajamasi.ca/HomeHeroImage.png"
+        />
         <meta property="og:url" content="https://freshtajamasi.ca/services" />
         <meta name="twitter:title" content="Services" />
         <meta
           name="twitter:description"
           content="Discover the therapy services offered by Freshta Jasami, an empowering therapist for diverse identities. Explore individual therapy, student therapy, and reduced-rate therapy to support your mental wellness journey."
         />
-        <meta name="twitter:image" content="/assets/Logos/MainLogo.png" />
+        <meta
+          name="twitter:image"
+          content="https://www.freshtajamasi.ca/HomeHeroImage.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://freshtajamasi.ca/services" />
       </Head>

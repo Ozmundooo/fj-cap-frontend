@@ -22,14 +22,20 @@ export default function contact() {
           property="og:description"
           content="Get in contact for any inquiries or questions you may have."
         />
-        <meta property="og:image" content="/assets/Logos/MainLogo.png" />
+        <meta
+          property="og:image"
+          content="https://www.freshtajamasi.ca/HomeHeroImage.png"
+        />
         <meta property="og:url" content="https://example.com/contact" />
         <meta name="twitter:title" content="Contact" />
         <meta
           name="twitter:description"
           content="Get in contact for any inquiries or questions you may have."
         />
-        <meta name="twitter:image" content="/assets/Logos/MainLogo.png" />
+        <meta
+          name="twitter:image"
+          content="https://www.freshtajamasi.ca/HomeHeroImage.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://example.com/contact" />
       </Head>

@@ -39,7 +39,10 @@ export default function Home() {
           property="og:description"
           content="Freshta Jasami: Empowering Therapist for Diverse Identities. Discover Validation, Growth, and Support in Your Journey to Mental Wellness."
         />
-        <meta property="og:image" content="/assets/Logos/MainLogo.png" />
+        <meta
+          property="og:image"
+          content="https://www.freshtajamasi.ca/HomeHeroImage.png"
+        />
         <meta property="og:url" content="https://freshtajamasi.ca" />
         <meta
           name="twitter:title"
@@ -49,7 +52,10 @@ export default function Home() {
           name="twitter:description"
           content="Freshta Jasami: Empowering Therapist for Diverse Identities. Discover Validation, Growth, and Support in Your Journey to Mental Wellness."
         />
-        <meta name="twitter:image" content="/assets/Logos/MainLogo.png" />
+        <meta
+          name="twitter:image"
+          content="https://www.freshtajamasi.ca/HomeHeroImage.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://freshtajamasi.ca" />
       </Head>

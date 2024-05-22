@@ -26,14 +26,20 @@ export default function about() {
           property="og:description"
           content="Learn more about Freshta Jamasi, my modalities and interventions, my mission, and my credentials and more."
         />
-        <meta property="og:image" content="/assets/Logos/MainLogo.png" />
+        <meta
+          property="og:image"
+          content="https://www.freshtajamasi.ca/HomeHeroImage.png"
+        />
         <meta property="og:url" content="https://freshtajamasi.ca/about" />
         <meta name="twitter:title" content="About" />
         <meta
           name="twitter:description"
           content="Learn more about Freshta Jamasi, my modalities and interventions, my mission, and my credentials and more."
         />
-        <meta name="twitter:image" content="/assets/Logos/MainLogo.png" />
+        <meta
+          name="twitter:image"
+          content="https://www.freshtajamasi.ca/HomeHeroImage.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://freshtajamasi.ca/about" />
       </Head>
