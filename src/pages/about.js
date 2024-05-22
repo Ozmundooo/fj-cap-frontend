@@ -47,9 +47,9 @@ export default function about() {
       <main className="bg-[#EAD7D3] ">
         <section
           id="about"
-          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 flex flex-col lg:flex-row gap-4 lg:gap-10 lg:justify-between"
+          className=" px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 flex flex-col-reverse lg:flex-row gap-4 lg:gap-10 lg:justify-between"
         >
-          <div className="lg:w-1/2">
+          <div className="lg:w-1/2 ">
             <div className="bg-[#F0ABAB] px-4 py-2 rounded-full shadow-solid-primary w-fit mb-4">
               <h3 className="text-sm font-medium lg:text-md xl:text-lg text-[#242051] font-subtitle text-center">
                 COUNSELLING AND PSYCHOTHERAPY
@@ -99,9 +99,9 @@ export default function about() {
               are heard and validated.
             </p>
           </div>
-          <div className="lg:w-1/2">
+          <div className="w-3/5 lg:w-1/2 ">
             <Image
-              className=" shadow-solid-primary rounded-lg object-cover lg:ml-auto  "
+              className="  shadow-solid-primary rounded-lg object-cover lg:ml-auto  "
               src={AboutImage}
             />
           </div>
