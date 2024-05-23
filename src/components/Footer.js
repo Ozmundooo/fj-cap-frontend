@@ -30,19 +30,23 @@ export default function Footer() {
             </h3>
           </div>
           <div className=" flex gap-2 py-2">
-            <Image className="fill-black" src={PhoneIcon} />
+            <Image
+              alt="Icon of a Phone"
+              className="fill-black"
+              src={PhoneIcon}
+            />
             <a className="my-auto " href={"tel:647-576-2751"}>
               (647)-576-2751
             </a>
           </div>
           <div className=" flex gap-2 py-2">
-            <Image src={EmailIcon} />
+            <Image alt="Email Icon" src={EmailIcon} />
             <a className="my-auto " href="mailto:info@freshtajamasi.ca">
               info@freshtajamasi.ca
             </a>
           </div>
           <div className=" flex gap-2 py-2">
-            <Image src={LocationIcon} />
+            <Image alt="Icon of pin for a map" src={LocationIcon} />
             <p className="my-auto ">Toronto, ON | Woodbridge. ON </p>
           </div>
           <SocialIcon
@@ -77,15 +81,15 @@ export default function Footer() {
             call 911.
           </p>
           <div className="flex gap-2 my-4 lg:ml-auto">
-            <Image src={FooterImageOne} />
-            <Image src={FooterImageTwo} />
+            <Image alt="CRPO" src={FooterImageOne} />
+            <Image alt="Flag" src={FooterImageTwo} />
 
             <a
               href="https://www.psychologytoday.com/profile/1068053"
               // class="sx-verified-seal"
               target="_blank"
             >
-              <Image src={FooterImageThree} />
+              <Image alt="Psycology Today Logo" src={FooterImageThree} />
             </a>
             {/* <script
             type="text/javascript"

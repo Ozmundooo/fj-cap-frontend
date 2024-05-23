@@ -5,6 +5,7 @@ export default function ServiceCard(props) {
   return (
     <li className="bg-white border-[#242051] border-2 rounded-lg">
       <Image
+        alt={props.title + " Image"}
         className="w-full  rounded-x-lg rounded-t-lg h-[300px] lg:h-[400px]  object-cover "
         src={props.image}
       />

@@ -101,6 +101,7 @@ export default function about() {
           </div>
           <div className=" lg:w-1/2 ">
             <Image
+              alt="Image of Freshta Jamasi"
               className="  shadow-solid-primary rounded-lg object-cover lg:ml-auto  "
               src={AboutImage}
             />

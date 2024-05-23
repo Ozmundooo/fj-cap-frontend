@@ -133,19 +133,19 @@ export default function ContactForm() {
           </h3>
 
           <div className="text-white flex gap-2 my-3">
-            <Image src={PhoneIcon} />
+            <Image alt="Icon of a Phone" src={PhoneIcon} />
             <a className="my-auto text-lg" href={"tel:647-576-2751"}>
               (647)-576-2751
             </a>
           </div>
           <div className="text-white flex gap-2 my-3">
-            <Image src={EmailIcon} />
+            <Image alt="Email Icon" src={EmailIcon} />
             <a className="my-auto text-lg" href="mailto:info@freshtajamasi.ca">
               info@freshtajamasi.ca
             </a>
           </div>
           <div className="text-white flex gap-2 my-3">
-            <Image src={LocationIcon} />
+            <Image alt="Icon of pin for a map" src={LocationIcon} />
             <p className="my-auto text-lg">Toronto, ON | Woodbridge, ON </p>
           </div>
         </div>
