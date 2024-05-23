@@ -12,7 +12,7 @@ import { SocialIcon } from "react-social-icons";
 export default function Footer() {
   return (
     <footer className="bg-[#F0ABAB] font-subtitle px-4 lg:px-8  xl:px-12 2xl:px-24  py-5 text-black border-t-2 border-black border-opacity-50">
-      <div className=" flex flex-col lg:flex-row justify-between">
+      <div className=" flex flex-col lg:flex-row justify-between pb-2">
         {" "}
         <div className="lg:w-1/3">
           <div className="flex gap-2 mb-3 lg:hidden">
