@@ -42,7 +42,7 @@ export default function contact() {
       <Navbar />
       <main className="bg-[#EAD7D3] ">
         <section id="contact" className=" px-4 lg:px-8  xl:px-12 py-5  mx-auto">
-          <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl text-center mb-5">
+          <h2 className="font-subtitle text-[#242051] text-3xl lg:text-4xl xl:text-6xl text-center my-5 lg:my-8">
             get in <span className="font-title">touch</span>
           </h2>
           <ContactForm />

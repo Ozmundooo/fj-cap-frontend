@@ -99,7 +99,7 @@ export default function about() {
               are heard and validated.
             </p>
           </div>
-          <div className="w-3/5 lg:w-1/2 ">
+          <div className=" lg:w-1/2 ">
             <Image
               className="  shadow-solid-primary rounded-lg object-cover lg:ml-auto  "
               src={AboutImage}
